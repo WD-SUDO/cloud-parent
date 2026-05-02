@@ -8,13 +8,26 @@ spring:
     name: spzx-cloud-order
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.146.131:3307/spzx-cloud-order?characterEncoding=UTF8
+    url: jdbc:mysql://192.168.146.132:3307/spzx-cloud-order?characterEncoding=UTF8
     username: root
     password: 1234
   cloud:
+#    loadbalancer:
+#      configurations: random   # 开启随机负载均衡算法
     nacos:
       discovery:
-        server-addr: 192.168.146.131:8848   #指定当前的应用服务往哪一个注册中心注册 注册ip端口
+        server-addr: 192.168.146.132:8848   #指定当前的应用服务往哪一个注册中心注册 注册ip端口
+#        cluster-name: SH #集群的名字
+    openfeign:
+      client:
+        config:
+          default:
+            logger-level: full    #NONE不记录任何的信息, BASIC 记录请求的方法, URL, 请求头和响应结果, HEADERS, FULL 记录所有信息
+            read-timeout: 2000    # 读取数据的超时时间（毫秒）
+            connect-timeout: 2000    # 连接超时时间（毫秒）
+logging:
+  level:
+    com.atguigu.spzx.cloud.order.feign: DEBUG
 # 配置mybatis的相关信息
 mybatis:
   configuration:

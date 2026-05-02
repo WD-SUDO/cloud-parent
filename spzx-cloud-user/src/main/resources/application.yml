@@ -8,13 +8,21 @@ spring:
     name: spzx-cloud-user
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.146.131:3307/spzx-cloud-user?characterEncoding=UTF8
+    url: jdbc:mysql://192.168.146.132:3307/spzx-cloud-user?characterEncoding=UTF8
     username: root
     password: 1234
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.146.131:8848
+        server-addr: 192.168.146.132:8848
+#        cluster-name: SH
+#        weight: 0.1 #权重值是0到100 之间的值 策略：机器性能和权重的大小 权重越大访问的次数越多
+#        namespace: 47e0e1d0-3af1-4b18-a22c-e320d1d5da58 #这是服务名字列表的名字
+#        group: dev #分组跨组的不能访问
+#        ephemeral: false  #是否的是临时的实例
+#    loadbalancer:
+#      nacos:
+#        enabled: true #开启nacos的负载均衡算法 优先访问同集群的实例 如果宕机了就会访问其他的
 # 配置mybatis的相关信息
 mybatis:
   configuration:

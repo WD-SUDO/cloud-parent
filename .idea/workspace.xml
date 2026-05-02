@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc61d3f4-cabb-4669-b6d3-3e701868a0b8" name="Changes" comment="" />
+    <list default="true" id="bc61d3f4-cabb-4669-b6d3-3e701868a0b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-order/src/main/java/com/atguigu/spzx/cloud/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-order/src/main/java/com/atguigu/spzx/cloud/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-order/src/main/java/com/atguigu/spzx/cloud/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-order/src/main/java/com/atguigu/spzx/cloud/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-user/src/main/java/com/atguigu/spzx/cloud/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-user/src/main/java/com/atguigu/spzx/cloud/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-cloud-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-cloud-user/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +31,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WD-SUDO"
+  }
+}]]></component>
   <component name="GiteeDefaultAccount">
     <option name="defaultAccountId" value="27e7fb75-5359-4177-b7b1-b43f7ec30d6e" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WD-SUDO/spzx-cloud-parent.git",
+    "accountId": "e1e59f11-bb17-425d-909c-5d270b64ea98"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,6 +63,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2uU2xmrBCGPOaKZlhiOtO5BmAIp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="flattenModules" value="true" />
@@ -55,11 +81,12 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.OrderApplication.executor": "Debug",
-    "Spring Boot.OrderApplication10102.executor": "Debug",
-    "Spring Boot.UserApplication.executor": "Debug",
-    "Spring Boot.UserApplication10101.executor": "Debug",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.OrderApplication10102.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "Spring Boot.UserApplication10101.executor": "Run",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/突击/spzx-cloud-parent/spzx-cloud-parent",
     "node.js.detected.package.eslint": "true",
@@ -106,6 +133,7 @@
         <param>
           <option name="enabled" value="true" />
           <option name="name" value="server.port" />
+          <option name="value" value="10102" />
         </param>
       </additionalParameters>
       <module name="spzx-cloud-order" />
@@ -135,11 +163,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.OrderApplication10102" />
+      <item itemvalue="Spring Boot.UserApplication10101" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UserApplication10101" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.OrderApplication10102" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
@@ -159,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777432064819</updated>
-      <workItem from="1777432065886" duration="13488000" />
+      <workItem from="1777432065886" duration="31213000" />
     </task>
     <servers />
   </component>
